@@ -1,0 +1,56 @@
+.click {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.favorite-item {
+  background-image: yellow;
+}
+
+.no-favorite {
+  background-color: rgb(220, 224, 228);
+  border: 3px solid lightsteelblue;
+}
+
+.imagem {
+  height: 20px;
+  margin-top: 4px;
+  margin-left: 170px;
+  z-index: 300;
+}
+
+@media (min-width: 40rem) {
+  .imagem {
+    margin-left: 243px;
+  }
+}
+
+@media (min-width: 56rem) {
+  .imagem {
+    margin-left: 238px;
+  }
+}
+/* 
+@media (min-width: 375px) {
+  .image {
+    margin-left: 145px;
+  }
+}
+
+@media (min-width: 768px) {
+  .image {
+    margin-left: 370px;
+  }
+} */
+
+.image:active {
+  transform: scale(0.93, 0.93) translateY(2px);
+}
+
+* {
+  transition: all 0.32s ease;
+}
